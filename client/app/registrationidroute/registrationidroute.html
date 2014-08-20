@@ -1,0 +1,13 @@
+<div class="col-md-12">
+This is the registrationidroute view.
+
+<div ng-show="isLoggedIn()"><p>Hello {{ getCurrentUser().name }}</p> </div>
+
+
+<form ng-submit="sendRegistrationId()">
+<p>Registration id：<input type="text" name="registrationid" size="100" /></p>
+
+<p><input type="submit" name="submit" value="送信" /></p>
+</form>
+
+</div>
